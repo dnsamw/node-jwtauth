@@ -1,0 +1,25 @@
+├── src/
+│   ├── config/
+│   │   └── config.ts
+│   ├── controllers/
+│   │   ├── authController.ts
+│   │   └── userController.ts
+│   ├── middleware/
+│   │   ├── auth.ts
+│   │   └── validate.ts
+│   ├── prisma/
+│   │   └── schema.prisma
+│   ├── routes/
+│   │   ├── auth.routes.ts
+│   │   └── user.routes.ts
+│   ├── types/
+│   │   ├── express.d.ts
+│   │   └── user.ts
+│   ├── utils/
+│   │   └── jwt.ts
+│   ├── app.ts
+│   └── server.ts
+├── .env
+├── .gitignore
+├── tsconfig.json
+└── package.json
